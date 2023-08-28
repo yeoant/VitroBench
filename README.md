@@ -2,7 +2,7 @@
 
 This repository keeps the software that is used in this project:
 
-## Test Platform
+## Workstation Software
 ​Note: Sniffing software is from [TSMaster](https://github.com/TOSUN-Shanghai/TSMaster).
 
 1. Python programs
