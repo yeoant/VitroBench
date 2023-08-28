@@ -2,17 +2,7 @@
 
 This repository keeps the software that is used in this project:
 
-## 1. Communication board
-
-1. fpga_can_bridge_source_code_pynq2.tar.xz - This archive contains the FPGA hardware abstraction files and firmware files for [Pynq-Z2 Development Board](http://www.pynq.io/board.html). Programming this dev. kit requires use of Vivado 2019.1.
-
-2. pcb_can_bridge_shield_pynq2 - This folder contains hardware related files for the PCB board that is mounted on top of the Pynq-Z2 FPGA Board. The hardware on this folder is structured as follows:
-   1. Schematic_PCB_CAN Bridge.zip - Contains schematic files for the bridge project
-   2. Gerber_PCB_CAN Bridge.zip - Contains gerber files for PCB production
-   3. BOM_PCB_CAN Bridge_2023-07-31.csv - Contains the bill of materials of all components soldered to the PCB
-   4. PickAndPlace_PCB_CAN Bridge_2023-07-31.csv - Contains pick and place fabrication file for  industrial assembly of PCB. This file is not needed if the components are to be soldered by hand.
-
-## 2. CAN Test Platform
+## Test Platform
 ​Note: Sniffing software is from [TSMaster](https://github.com/TOSUN-Shanghai/TSMaster).
 
 1. Python programs
