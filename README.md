@@ -3,7 +3,7 @@
 VitroBench is a comprehensive test platform that manipulates in-vehicle networks and COTS ECUs on your bench. Our <a href="https://www.sciencedirect.com/science/article/pii/S2214209623000797">VitroBench paper</a> is published on Vehicular Communications, Volume 43 (October 2023). This repository keeps the software that is used in this project.
 
 <p align="center">
-  <img src="display.png" width="874">
+  <img src="display.png" width="800">
 </p>
 
 <p align="justify">
@@ -23,6 +23,13 @@ VitroBench is a comprehensive test platform that manipulates in-vehicle networks
 | Injection | A channel can be used to transmit messages to the targeted network with configurable frame interval. |
 | Interception | An ECU can be isolated via bridging and its intercepted messages will pass through the workstation. |
 | Fuzzing & Attacks | A fuzzing program can be executed at the workstation on the injected or intercepted messages. Different programs for attacks can be explored by modifying the intercepted or injected messages. |
+
+<p align="center">
+  <img src="testing_setup.png"  width="800">
+</p>
+
+<p align="justify">There are three possible testing scenarios as illustrated in the figure. For normal operation, the four channels of PCAN, FCAN, KCAN and Diagnostic are set up for (1) Sniffing. For (2) Frame Injection, an additional injection channel is connected to the network. For bridging, a targeted ECU is separated and re-connected to the ECU channel and back via the network channel as shown in (3) Interception.
+</p>
 
 ## Workstation Software
 ​Note: Sniffing software is from [TSMaster](https://github.com/TOSUN-Shanghai/TSMaster).
