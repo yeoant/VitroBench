@@ -1,6 +1,24 @@
-# VitroBench
+# VitroBench Test Platform
 
-This repository keeps the software that is used in this project:
+VitroBench is a comprehensive test platform that manipulates in-vehicle networks and COTS ECUs on your bench. This repository keeps the software that is used in this project.
+
+<p align="center">
+  <img src="display.png" width="874">
+</p>
+
+<p align="justify">
+  The software for sniffing, injection or interception, and fuzzing or attacks is executed on the CAN Messages (CM) workstation. Three displays monitor the respective messages:
+</p>
+
+1. TSMaster (Sniffing and Logging)  
+2. TSMaster (Injection or Interception Monitoring)  
+3. Fuzzing or Attacks
+
+## Testing Setup
+
+
+
+
 
 ## Workstation Software
 ​Note: Sniffing software is from [TSMaster](https://github.com/TOSUN-Shanghai/TSMaster).
