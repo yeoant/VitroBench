@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="VitroBench_logo.png" width="800">
+</p>
+
 # VitroBench Test Platform
 
 VitroBench is a comprehensive test platform that manipulates in-vehicle networks and COTS ECUs on your bench. Our <a href="https://www.sciencedirect.com/science/article/pii/S2214209623000797">VitroBench paper</a> is published on Vehicular Communications, Volume 43 (October 2023). This repository keeps the software that is used in this project.
