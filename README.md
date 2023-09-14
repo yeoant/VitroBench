@@ -15,7 +15,7 @@ VitroBench is a comprehensive test platform that manipulates in-vehicle networks
 3. Fuzzing or Attacks
 
 ## Testing Setup
-<p> The testing setup depends on the operation of the test platform:</p>
+<p> The testing setup depends on the operation of the test platform. Operation videos can be obtained from the following website, <a href="https://www.vitrobench .com">VitroBench</a>. </p>
 
 | Operation | Description |
 | :-------- | :---------- |
