@@ -1,6 +1,6 @@
 # VitroBench Test Platform
 
-VitroBench is a comprehensive test platform that manipulates in-vehicle networks and COTS ECUs on your bench. This repository keeps the software that is used in this project.
+VitroBench is a comprehensive test platform that manipulates in-vehicle networks and COTS ECUs on your bench. Our <a href="https://www.sciencedirect.com/science/article/pii/S2214209623000797">VitroBench paper</a> is published on Vehicular Communications, Volume 43 (October 2023). This repository keeps the software that is used in this project.
 
 <p align="center">
   <img src="display.png" width="874">
@@ -15,10 +15,14 @@ VitroBench is a comprehensive test platform that manipulates in-vehicle networks
 3. Fuzzing or Attacks
 
 ## Testing Setup
+<p> The testing setup depends on the operation of the test platform:</p>
 
-
-
-
+| Operation | Description |
+| :-------- | :---------- |
+| Sniffing  | All the IVNs messages are monitored and captured via TSMaster. |
+| Injection | A channel can be used to transmit messages to the targeted network with configurable frame interval. |
+| Interception | An ECU can be isolated via bridging and its intercepted messages will pass through the workstation. |
+| Fuzzing & Attacks | A fuzzing program can be executed at the workstation on the injected or intercepted messages. Different programs for attacks can be explored by modifying the intercepted or injected messages. |
 
 ## Workstation Software
 ​Note: Sniffing software is from [TSMaster](https://github.com/TOSUN-Shanghai/TSMaster).
