@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="VitroBench_logo.png" width="400">
+  <img src="VitroBench_logo.jpg" width="400">
 </p>
 
 # VitroBench Test Platform
