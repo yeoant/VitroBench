@@ -49,3 +49,19 @@ VitroBench is a comprehensive test platform that manipulates in-vehicle networks
 | [bmw_jbe_fuzz1_v10.py](https://github.com/yeoant/VitroBench/blob/main/bmw_jbe_fuzz1_v10.py) | This program  conducts a penetration test by injecting random message IDs and data from the external Diagnostic network. The workstation can monitor all the In-Vehicle Networks (IVNs) messages to check which messages have      infiltrated the IVNs. Within the program, setting (sniff=True) will log the infiltrated messages to the file,      {'jbe_infiltrate'+date_time+'.blf'}. |
 | [bmw_speed_attack1.py](https://github.com/yeoant/VitroBench/blob/main/bmw_speed_attack1.py) | This attack causes the instrument cluster to display the wrong speed. DSC is isolated and bridged from PCAN. The car runs normally until the attack speed of 40km/h. Thereafter, the speed in message 0x1A6 is randomly set. |
 | [bmw_speed_attack2.py](https://github.com/yeoant/VitroBench/blob/main/bmw_speed_attack2.py) | This causes the instrument cluster to display the wrong speed. DSC is isolated and bridged from PCAN. The car runs normally until the attack speed of 10 km/h. Thereafter, the speed message 0x1A6 is incremented by 2/3 of the actual increased speed and clipped at the maximum speed of 35 km/h. |
+
+### Citing VitroBench
+
+```
+@article{YEO2023100649,
+title = {VitroBench: Manipulating in-vehicle networks and COTS ECUs on your bench: A comprehensive test platform for automotive cybersecurity research},
+journal = {Vehicular Communications},
+volume = {43},
+pages = {100649},
+year = {2023},
+issn = {2214-2096},
+doi = {https://doi.org/10.1016/j.vehcom.2023.100649},
+url = {https://www.sciencedirect.com/science/article/pii/S2214209623000797},
+author = {Anthony Kee Teck Yeo and Matheus E. Garbelini and Sudipta Chattopadhyay and Jianying Zhou}
+}
+```
