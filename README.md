@@ -57,9 +57,7 @@ VitroBench is a comprehensive test platform that manipulates in-vehicle networks
 title = {VitroBench: Manipulating in-vehicle networks and COTS ECUs on your bench: A comprehensive test platform for automotive cybersecurity research},
 journal = {Vehicular Communications},
 volume = {43},
-pages = {100649},
 year = {2023},
-issn = {2214-2096},
 doi = {https://doi.org/10.1016/j.vehcom.2023.100649},
 url = {https://www.sciencedirect.com/science/article/pii/S2214209623000797},
 author = {Anthony Kee Teck Yeo and Matheus E. Garbelini and Sudipta Chattopadhyay and Jianying Zhou}
